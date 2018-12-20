@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: es.ull.etsii.ldh.p6tests.Tests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec <<< FAILURE! - in es.ull.etsii.ldh.p6tests.Tests
-test2  Time elapsed: 0.015 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE! - in es.ull.etsii.ldh.p6tests.Tests
+test2  Time elapsed: 0.011 sec  <<< FAILURE!
 org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <99> but was: <-8>
 	at es.ull.etsii.ldh.p6tests.Tests.test2(Tests.java:23)
 
