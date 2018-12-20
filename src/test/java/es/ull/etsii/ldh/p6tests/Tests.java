@@ -18,9 +18,9 @@ class Tests {
 	@Test
 	void test2() {
 		Quicksort qs = new Quicksort();
-		int[] values = new int[] {99,1,201,43,62,0,23,-8};
+		int[] values = new int[] {100,0,2000,1,6};
 		qs.sort(values);
-		assertArrayEquals(new int[]{99,1,201,43,62,0,23,-8}, values);
+		assertArrayEquals(new int[]{0,1,6,100,2000}, values);
 	}
 
 }
